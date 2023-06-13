@@ -95,6 +95,7 @@ GENERAL STYLES
   --clr-primary-1: rgb(55, 95, 75);
   --clr-primary-2: rgb(36, 36, 36);
   --clr-secondary: rgba(43, 15, 56, 0.9);
+  --clr-secondary-2: rgb(157, 192, 139);
   --clr-accent: rgb(249, 219, 187);
   --clr-gradient: linear-gradient(
     -90deg,
@@ -216,7 +217,7 @@ h1 {
   grid-area: main;
   overflow: auto;
   padding: 15px 5px 10px 5px;
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(55, 95, 75);
 }
 
 
