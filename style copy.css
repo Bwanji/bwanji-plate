@@ -92,10 +92,9 @@ GENERAL STYLES
 
   /* Color Scheme */
 
-  --clr-primary-1: rgb(55, 95, 75);
-  --clr-primary-2: rgb(36, 36, 36);
-  --clr-secondary: rgba(43, 15, 56, 0.9);
-  --clr-accent: rgb(249, 219, 187);
+  --clr-primary: #ee6352;
+  --clr-secondary: #d16e8d;
+  --clr-accent: #f7f7ff;
   --clr-gradient: linear-gradient(
     -90deg,
     var(--clr-primary),
@@ -132,6 +131,25 @@ a {
 }
 a:hover {
   color: #535bf2;
+}
+
+body {
+  margin: 0;
+  /* min-width: 320px; */
+  /* min-height: 100vh; */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+  height: 100vh;
 }
 
 .logo {
@@ -179,66 +197,34 @@ button:focus-visible {
   }
 }
 
-
-body {
-  margin: 0;
-
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-
-
-#app {
-  height: 100vh;
-  
-   /* grid container settings */
-   display: grid;
-   grid-template-columns: 1fr;
-   grid-template-rows: auto 1fr auto;
-   grid-template-areas: 
-     'header'
-     'main'
-     'footer';
-
-}
-
-#app > header {
-  grid-area: header;
-  background-color: rgb(157, 192, 139);
-  
-}
-
-#app > main {
-  grid-area: main;
-  overflow: auto;
-  padding: 15px 5px 10px 5px;
-  background-color: rgb(36, 36, 36);
-}
-
-
-#app > footer {
-  grid-area: footer;
-  background-color: rgb(157, 192, 139);
-}
-
-
-/* making main a grid to house our 600px column*/
-/* #app > main {
+.container {
   display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr minmax(0, 600px) 1fr;
-} */
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-rows: minmax(50px, auto);
+}
 
-/* Section to house the middle section */
-/* #app > section {
-  grid-area: 1 / 2 / 1 / 3;
-} */
+.container > div {
 
-/* section .full to span entire grid width */
-/* #app > section.full {
-  grid-area: 1 / 2/ 1 / 4
-} */
+  border: solid 1px white;
+
+
+}
+
+.header {
+  grid-column: 1/13;
+  grid-row: 1;
+  background-color: #9dc08b;
+}
+
+.content {
+  grid-column: 1/13;
+  grid-row: 2/19;
+}
+
+.footer {
+  grid-column: 1/13;
+  grid-row: 19/19;
+  background-color: #9dc08b;
+
+
+}
