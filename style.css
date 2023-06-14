@@ -270,7 +270,7 @@ h1 {
 .bottom-header img {
   width: 35px;
   height: auto;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -291,9 +291,9 @@ h1 {
   }
   
   .bottom-header img {
-    width: 30px;
+    width: 28px;
     height: auto;
-    margin: 0;
+    margin: auto;
     padding: 0;
   }
 
