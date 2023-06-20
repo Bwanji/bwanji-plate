@@ -96,7 +96,8 @@ GENERAL STYLES
   --clr-primary-2: rgb(36, 36, 36);
   --clr-secondary: #2b0f38e6;
   --clr-secondary-2: #9dc08b;
-  --clr-accent: #f9dbbb;
+  --clr-accent-primary: #4E6E81;
+  --clr-accent-secondary: #f9dbbb;
   --clr-gradient: linear-gradient(
     -90deg,
     var(--clr-primary),
@@ -155,12 +156,14 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #4E6E81;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  background-color: #F9DBBB;
+  color: #4E6E81;
+  
 }
 button:focus,
 button:focus-visible {
@@ -169,7 +172,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #4E6E81;
     background-color: #ffffff;
   }
   a:hover {
@@ -355,7 +358,7 @@ main {
   justify-content: space-around;
 }
 
-/* Main Level Grid Styling */
+/* Main Section Level Grid Styling */
 
 /* Product Item Styling*/
 
@@ -378,9 +381,15 @@ main {
   height: 84vh;
   background-color: #9dc08b;
   border-radius: 10px;
-  color: #213547;
 }
 
+.product-description {
+  grid-column: 2 / 5;
+  grid-row: 1 / 2;
+}
+
+
+/* Product Item Styling  */
 
 .product-name {
   display: flex;
@@ -404,11 +413,10 @@ main {
 }
 
 
-.product-description {
-  grid-column: 2 / 5;
-  grid-row: 1 / 2;
-}
+/* Product Item  */
 
+
+/* Portfolio Slide Gallery */
 
 .slide-gallery {
   display: flex;
@@ -422,6 +430,8 @@ main {
 .slide-gallery img {
   padding: 10px;
 }
+
+/* Product Description Section */
 
 .product-info {
   display: flex;
@@ -437,6 +447,5 @@ main {
   background-color: #9dc08b;
   border-radius: 10px;
   padding: 20px;
-  color: #213547;
   height: 35vh;
 }
