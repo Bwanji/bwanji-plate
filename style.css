@@ -182,13 +182,39 @@ button:focus-visible {
 
 body {
   margin: 0;
+  color: #4e6e81;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #4e6e81;
 }
 
+h2 {
+  font-size: 2.0em;
+  line-height: 1.1;
+  color: #4e6e81;
+}
+
+h3 {
+  font-size: 1.7em;
+  line-height: 1.1;
+  color: #4e6e81;
+}
+
+
+h4 {
+  font-size: 1.3em;
+  line-height: 1.2;
+  color: #4e6e81;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.4;
+  color: #4e6e81;
+}
 /* ---Header - icon--- bar */
 
 /* Upper Bar */
