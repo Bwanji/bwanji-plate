@@ -226,13 +226,12 @@ p {
 }
 
 .upper-bar a {
-  font-family: "Noto Sans", sans-serif;
+  /* font-family: "Noto Sans", sans-serif; */
   color: #4e6e81;
 }
 
 .upper-bar a:hover {
   padding: 13px;
-  /* border-radius: 5px; */
   background-color: #4e6e81;
   border-bottom: solid 2px #f9dbbb;
   color: #f9dbbb;
@@ -376,7 +375,7 @@ main {
 .product-name {
   grid-column: 1;
   grid-row: 1 / 2;
-  height: 85vh;
+  height: 84vh;
   background-color: #9dc08b;
   border-radius: 10px;
   color: #213547;
@@ -387,7 +386,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
 }
 
 .product-name img {
