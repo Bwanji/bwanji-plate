@@ -378,7 +378,7 @@ p {
 .product-name {
   grid-column: 1;
   grid-row: 1 / 2;
-  height: 84vh;
+  
   background-color: #9dc08b;
   border-radius: 10px;
 }
@@ -401,8 +401,9 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 84vh;
   gap: 20px;
-  margin: 5px;
+  margin: 10px;
 }
 
 .product-name img {
@@ -467,6 +468,12 @@ p {
 }
 
 .slide-gallery img {
+  width: 750px;
+  height: auto;
+  padding: 10px;
+}
+
+.code img {
   width: 800px;
   height: auto;
   padding: 10px;
