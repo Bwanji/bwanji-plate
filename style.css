@@ -446,7 +446,7 @@ p {
 
   .product-name h4 {
     font-size: 1.2em;
-    line-height: 1.1;
+    line-height: 1.5;
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
@@ -468,7 +468,7 @@ p {
 }
 
 .slide-gallery img {
-  width: 750px;
+  width: 720px;
   height: auto;
   padding: 10px;
 }
@@ -482,6 +482,7 @@ p {
 @media screen and (max-width: 1000px) {
   .slide-gallery img {
     width: 100%;
+    height: auto;
   }
 }
 
@@ -529,7 +530,7 @@ p {
 
   .item-info p,.other-info p  {
     font-size: 1em;
-    line-height: 1.1;
+    line-height: 1.6;
   }
 
 }
