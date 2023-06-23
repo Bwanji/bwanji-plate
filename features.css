@@ -443,4 +443,35 @@ p {
 }
 
 
+@media screen and (max-width: 1000px) {
+
+    .menu-item {
+      display: none;
+    }
+
+
+    .features-wrapper {
+      padding: 20px;
+    }
+
+    .product-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .title img {
+      width: 40%;
+    }
+
+    .title h2 {
+      font-size: 1.6em;
+      line-height: 1.1;
+      text-align: center;
+    }
+
+    .row {
+      display: block;
+    }
+}
+
 
