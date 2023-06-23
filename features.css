@@ -400,6 +400,11 @@ p {
 
 }
 
+.shrink {
+
+  padding-top: 145px;
+}
+
 .title img  {
   width: 200px;
 
